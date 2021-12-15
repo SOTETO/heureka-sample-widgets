@@ -4,6 +4,6 @@ services:
     image: nginx:latest
     container_name: nginx-widgets-tests
     volumes:
-      - ./vanilla-js/:/usr/share/nginx/html/test:ro
+      - ./vanilla-js/:/usr/share/nginx/html/heureka-sample-widgets:ro
     ports:
-      - "8080:80"
+      - "8082:80"

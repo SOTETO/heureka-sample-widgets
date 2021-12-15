@@ -8,5 +8,5 @@ show its usage for a plain HTML, JavaScript and CSS application. The _LyricsSear
 
 ### Setup
 Running `docker-compose up` in the directory of the cloned repository will start an NGINX that is serving the _LyricsSearch_
-app on `localhost://8080/test/`. To use it in the context of Heureka! and therefore getting all required CSS styles, you
-just have to start the `INFRA` environment of the [Heureka-CLI](https://github.com/SOTETO/heureka) and call `http://localhost/test/`.
+app on `http://localhost:8082/heureka-sample-widgets/`. To use it in the context of Heureka! and therefore getting all required CSS styles, you
+just have to start the `INFRA` environment of the [Heureka-CLI](https://github.com/SOTETO/heureka) and call `http://localhost/heureka-sample-widgets/`.
